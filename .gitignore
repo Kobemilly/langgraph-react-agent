@@ -178,3 +178,6 @@ test_*.py
 # Google Cloud credentials (except specific config files)
 *.json
 !langgraph.json
+
+# GitHub workflows (token permission issue)
+.github/workflows/
